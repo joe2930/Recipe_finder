@@ -1,38 +1,186 @@
-.App {
+.headd
+{
   text-align: center;
+  color: #d76b00;
+  padding: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.rcp 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
   }
+  
+  .card {
+    border: 3px solid #725731;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .card:hover
+  {
+    transform:scale(1.05) ;
+  }
+
+  .card h3
+  {
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+  }
+  
+
+  
+
+  
+  .srch
+  {
+    width: 34px;
+    height: 35px;
+    background-color: rgb(230, 155, 68);
+    color: white;
+    border-radius: 2px;
+  }
+
+  .inp
+{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    justify-content: center;
+    gap: 3px;
+    padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inpu
+{
+    height: 36px;
+    width: 300px;
+    font-weight: bolder;
+    border-radius: 2px;
+    font-size: 18px;
+
+}
+
+.food
+{
+  width: 360px;
+  height: 400px;
+  margin-bottom: 10px;
+}
+.mored
+{
+  border: none;
+  background-color: rgb(236, 135, 20);
+  border-radius: 5px;
+  color: white;
+  font-size: 21px;
+  font-weight: bolder;
+  padding: 8px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.mored:hover {
+  background-color: #d76b00; 
+}
+.link
+{
+  text-decoration: none;
+}
+
+.inc {
+  font-weight: bold;
+  background-color: #f0f0f0;
+  font-size: 23px;
+}
+
+.msr {
+  font-style: italic;
+  background-color: #f0f0f0;
+  font-size: 23px;
+
+}
+
+
+.box {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 0 auto; 
+  padding: 20px; 
+ 
+  
+}
+
+.lis {
+  display: flex;
+  flex-direction: column;
+  width: 40%; 
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px 20px; 
+  margin: 5px 0; 
+  border-radius: 5px;
+  background-color: #f0f0f0; 
+}
+
+.ins p
+{
+    padding: 30px;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.src
+{
+  margin-top: 10px;
+  margin-bottom: 50px ;
+  display: flex;
+  justify-content: center;
+}
+
+.vd{
+  height: 500px;
+  width: 700px;
+}
+
+.back{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  
+  
+}
+
+.back button
+{
+  background-color: rgb(236, 135, 20);
+  height: 40px;
+  width: 160px;
   color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.back button:hover
+{
+  background-color: #d76b00;
 }
