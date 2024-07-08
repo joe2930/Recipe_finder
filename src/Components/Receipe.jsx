@@ -34,7 +34,7 @@ const Receipe = () => {
         <h1 className='headd'  >Welcome To Recipe Finder</h1>
         <div className='inp'>
           <input  className='inpu'  ref={srchinput}  type="text" placeholder='Search'/>
-          <img  src='/search.png' alt='srch_icon' className='srch' onClick={srch}/>
+          <button  className='srch' onClick={srch}>Search</button>
         </div>
       </div>
     <div className='rcp'>

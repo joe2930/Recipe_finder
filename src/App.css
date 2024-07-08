@@ -37,18 +37,16 @@
     padding: 10px;
     font-size: 24px;
   }
-  
 
-  
-
-  
   .srch
   {
-    width: 34px;
+    width: 52px;
     height: 35px;
     background-color: rgb(230, 155, 68);
     color: white;
     border-radius: 2px;
+    font-size: 16px;
+    border: none;
   }
 
   .inp
@@ -69,7 +67,6 @@
     font-weight: bolder;
     border-radius: 2px;
     font-size: 18px;
-
 }
 
 .food

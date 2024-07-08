@@ -54,7 +54,7 @@ const Details = () => {
     className='vd'
     src={`https://www.youtube.com/embed/${recipe.strYoutube.split('=')[1]}`}
     
-    
+    title="head"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen
   ></iframe>
