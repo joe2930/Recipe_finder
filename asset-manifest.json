@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.io/Recipe_finder/static/css/main.a48b5361.css",
+    "main.js": "/github.io/Recipe_finder/static/js/main.0ce107c4.js",
+    "static/js/453.2cecc6e0.chunk.js": "/github.io/Recipe_finder/static/js/453.2cecc6e0.chunk.js",
+    "index.html": "/github.io/Recipe_finder/index.html",
+    "main.a48b5361.css.map": "/github.io/Recipe_finder/static/css/main.a48b5361.css.map",
+    "main.0ce107c4.js.map": "/github.io/Recipe_finder/static/js/main.0ce107c4.js.map",
+    "453.2cecc6e0.chunk.js.map": "/github.io/Recipe_finder/static/js/453.2cecc6e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a48b5361.css",
+    "static/js/main.0ce107c4.js"
+  ]
+}
